@@ -1,6 +1,6 @@
 # Election_Analysis
 ## Overview of Election Audit: 
-The purpose of the election audit analysis is to help Tom, a Colorado employee, to audit the results of an election of a congressional district in Colorado. The code and written report will certify the election results for Tom. Additionally, the python code used for the Colorado congressional district could be used for other local elections in the future.
+The purpose of the election audit analysis is to help Tom, a Colorado employee, audit the results of an election of a congressional district in Colorado. The code and written report will certify the election results for Tom. Additionally, the python code used for the Colorado congressional district could be used for other elections in the future.
 
 ## Election-Audit Results:
 ### How many votes were cast in this congressional election?
