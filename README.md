@@ -1,8 +1,8 @@
 # Election_Analysis
-## Overview of Election Audit: 
-The purpose of the election audit analysis is to help Tom, a Colorado employee, audit the results of an election of a congressional district in Colorado. The code and written report will certify the election results for Tom. Additionally, the python code used for the Colorado congressional district could be used for other elections in the future.
+## Overview of Election Audit
+The purpose of the election audit analysis is to help Tom, a Colorado employee, to audit the results of an election of a congressional district in Colorado. The code and written report will certify the election results for Tom. Additionally, the python code used for the Colorado congressional district could be used for other local elections in the future.
 
-## Election-Audit Results:
+## Election-Audit Results
 ### How many votes were cast in this congressional election?
     Total Votes: 369,711
 
@@ -25,11 +25,21 @@ The purpose of the election audit analysis is to help Tom, a Colorado employee, 
     Winning Vote Count: 272,892
     Winning Percentage: 73.8%
 
-## Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+## Election-Audit Summary
 
-In line 17 and 18 of the PyPoll_Challenge_FINAL.py code, 
+To the election commission:
+The purpose of this proposal is to offer the script written for the county election in Colorado as a general script for any election in Colorado. By modifying a small amount of code, elections of any size could be analyzed quickly and accurately. There are two examples below that explain modifications to the script that could be used for upcoming elections in Colorado.
+
+### In line 17 and 18 of the PyPoll_Challenge_FINAL.py code, 
     county_votes = {}
     county_list = []
-the variables which contain the word "county" could be replaced with another variable such as "state_votes" for a national election, or "town_votes" for a state election.
+the variables which contain the word "county" could be replaced with another variable such as "state_votes" for a national election such as a presidential election, or "town_votes" for a state election.
 
-Need another example
+### Another example of how the script can be modified is to show the Loser in the election rather than the Winner. The variables listed below would be exchanged with the 'losing variables': 
+
+#Initialize winning variables
+    winning_candidate = ""
+    winning_count = 0
+    winning_percentage = 0
+
+The word "winning" would then be replaced with "losing" and the code for determining vote count would be 'less than' rather than 'greater than' in line 151.
